@@ -38,7 +38,6 @@ class Basketball {
             const newBall = {
                 x: event.clientX - this.canvas.getBoundingClientRect().left,
                 y: event.clientY - this.canvas.getBoundingClientRect().top,
-                vx: 0,
                 vy: 0,
                 radius: 28,
                 gravity: 0.3,
