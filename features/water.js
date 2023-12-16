@@ -60,7 +60,6 @@ class BallInWater {
             const newBall = {
                 x: event.clientX - this.canvas.getBoundingClientRect().left,
                 y: event.clientY - this.canvas.getBoundingClientRect().top,
-                vx: 0,
                 vy: type === 'basketball' ? -20 : 0,
                 radius: type === 'basketball' ? 20 : 20,
                 gravity: type === 'basketball' ? 0 : 0.8,
