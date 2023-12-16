@@ -44,7 +44,6 @@ class SoccerBall {
             const newBall = {
                 x: event.clientX - this.canvas.getBoundingClientRect().left,
                 y: event.clientY - this.canvas.getBoundingClientRect().top,
-                vx: 0,
                 vy: 0,
                 radius: 20,
                 gravity: 0.3,
