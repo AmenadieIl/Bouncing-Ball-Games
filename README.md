@@ -52,6 +52,7 @@ The "Bouncing Ball Games" project is created to demonstrate ball bouncing animat
 - Observe how the balls behave based on their type (basketball or bowling).
 
 ## License
+This project use MIT-license
 
 ## Contact the Developer:
 If you have questions, suggestions, or issues, feel free to contact the developer:
